@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Appointments | Mind Tranquil</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- AOS Animation -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="logo.png" alt="Logo" class="logo">
+        Mind Tranquil
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="treatments.html">Treatments</a></li>
+          <li class="nav-item"><a class="nav-link active" href="appointments.html">Appointments</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="Dr-Mahi-Brochure.pdf">Brochure</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero section text-center text-md-start">
+    <div class="container" data-aos="fade-right">
+      <h1 class="mt-3">Schedule Your Appointment</h1>
+      <p class="lead">
+        We’ll confirm within business hours. For urgent requests, call
+        <a href="tel:+919351728015">+91 93517 28015</a>.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- Google Forms -->
+<section class="section container">
+  <div class="section-header text-center mb-4">
+    <h2>Send a Message</h2>
+  </div>
+  <iframe 
+    src="https://docs.google.com/forms/d/e/1FAIpQLScPhgmRFx6KRxuIFaQqnBfYQvQ8nIa8mbSGwccAFbmhKQQR0g/viewform?embedded=true"
+    width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0">
+    Loading…
+  </iframe>
+</section>
+
+
+
+
+  <!-- What happens next -->
+  <section class="section bg-light">
+    <div class="container">
+      <div class="section-header text-center mb-5" data-aos="fade-up">
+        <h2>What Happens Next</h2>
+      </div>
+      <div class="row g-4 text-center">
+        <div class="col-md-4" data-aos="fade-up">
+          <div class="card p-3 shadow-sm h-100">
+            <h5>1) Confirmation</h5>
+            <p class="text-muted">We confirm slot & clinician.</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="80">
+          <div class="card p-3 shadow-sm h-100">
+            <h5>2) Intake Call</h5>
+            <p class="text-muted">Brief goals & test selection.</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="120">
+          <div class="card p-3 shadow-sm h-100">
+            <h5>3) Session Day</h5>
+            <p class="text-muted">Arrive 10 mins early; bring prior reports.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Policies & FAQs -->
+  <section class="section container">
+    <div class="row g-5">
+      <div class="col-md-6" data-aos="fade-right">
+        <h2>Policies</h2>
+        <table class="table mt-3">
+          <tr>
+            <th>Rescheduling</th>
+            <td>Free up to 24h prior</td>
+          </tr>
+          <tr>
+            <th>Late arrival</th>
+            <td>Grace 10 min; session may be shortened</td>
+          </tr>
+          <tr>
+            <th>Reports</th>
+            <td>Typically 48–72h</td>
+          </tr>
+          <tr>
+            <th>Payments</th>
+            <td>UPI/Card/Cash accepted</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-6" data-aos="fade-left">
+        <h2>FAQs</h2>
+        <div class="accordion mt-3">
+          <details open>
+            <summary>Do you offer Sunday slots?</summary>
+            <p class="text-muted">Closed on Sundays; write to us for exceptions.</p>
+          </details>
+          <details>
+            <summary>Online bookings available?</summary>
+            <p class="text-muted">Yes, choose “Online (Video)” in the form.</p>
+          </details>
+          <details>
+            <summary>Do you share reports with schools?</summary>
+            <p class="text-muted">With your consent, yes.</p>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <p class="mb-0">&copy; 2025 Mind Tranquil Psyche-assessment Lab. All rights reserved.</p>
+  </footer>
+  <!-- Bootstrap JS + AOS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init({ duration: 800, easing: "ease-in-out", once: true });</script>
+  <script src="app.js"></script>
+</body>
+
+</html>
