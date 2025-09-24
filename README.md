@@ -37,21 +37,11 @@ User just taps Send to confirm booking
 
 🔧 Setup Instructions
 
-Clone or download the repository:
-
-git clone https://github.com/yourusername/mind-tranquil-appointments.git
-cd mind-tranquil-appointments
-
-
 Open index.html in your browser or deploy it on any web server (Netlify, Vercel, GitHub Pages, etc.).
 
 Update your WhatsApp number in the <script> section:
 
 const whatsappNumber = "919351728015"; // your number here
-
-📸 Demo Screenshot
-
-Add a screenshot of your form UI here for quick reference.
 
 📄 License
 
@@ -60,5 +50,4 @@ This project is licensed under the MIT License – feel free to use and modify f
 👨‍💻 Developed By
 Aayush Tailor
 
-YES Softech
-🔗 Website
+
